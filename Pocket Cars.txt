@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POCKET CARS PLANET - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1 class="nav-title">POCKET CARS PLANET</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="home">
+        <section class="hero">
+            <h1>POCKET CARS PLANET</h1>
+            <p>Premium Hot Wheels and Mini GT Models</p>
+        </section>
+        
+        <section class="featured">
+            <h2>Featured Cars</h2>
+            <div class="car-grid">
+                <div class="car-card">
+                    <img src="https://via.placeholder.com/300x200/333/fff?text=Ferrari+F40" alt="Ferrari F40">
+                    <h3>Ferrari F40</h3>
+                    <p>₹800</p>
+                </div>
+                <div class="car-card">
+                    <img src="https://via.placeholder.com/300x200/333/fff?text=Nissan+Skyline+GT-R" alt="Nissan Skyline GT-R">
+                    <h3>Nissan Skyline GT-R</h3>
+                    <p>₹750</p>
+                </div>
+                <div class="car-card">
+                    <img src="https://via.placeholder.com/300x200/333/fff?text=Lamborghini+Aventador" alt="Lamborghini Aventador">
+                    <h3>Lamborghini Aventador</h3>
+                    <p>₹900</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta">
+            <a href="shop.html" class="btn">Shop Now</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 POCKET CARS PLANET. All rights reserved.</p>
+    </footer>
+</body>
+</html>
